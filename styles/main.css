@@ -1,4 +1,4 @@
-/* reset styles */
+/************ RESET STYLES ************/
 
 * {
   box-sizing: border-box;
@@ -18,20 +18,21 @@ a {
   text-decoration: none;
 }
 
-/* HEADER STYLES */
-
-/* header */
+/************* HEADER STYLES *************/
 
 .header {
   background: black;
   width: 100%;
   height: 421px;
+  margin-bottom: 50px;
 }
+
 .header-main {
   position: fixed;
   top: 0;
   width: 100%;
   opacity: 0.95;
+  z-index: 1000;
 }
 
 /* header: contenedor nombre del grupo */
@@ -46,7 +47,7 @@ a {
 
 /* header: elementos del contenedor nombre del grupo */
 .logo {
-  width: 40%;
+  height: 50px;
 }
 
 /* header: contenedor menú navegación */
@@ -60,7 +61,6 @@ a {
 }
 
 /* header: elementos del contenedor menú navegación */
-
 .list-item {
   text-transform: uppercase;
 }
@@ -72,71 +72,83 @@ a {
   line-height: 2;
 }
 
-/* HERO section styles */
+/************* HERO SECTION STYLES *************/
 
 .hero-main {
-  position: relative;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-title {
   color: white;
   font-family: "Open Sans", sans-serif;
-  font-size: 35px;
+  font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding-top: 110px;
-  /* SOBRE LA POSICION RESPECTO AL BODY: revisar si es convenineto cambiar padding por otro atributo */
+  padding: 150px 0 20px 0;
 }
 
 .hero-avatar-list {
-  position: absolute;
+  position: static;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 20px;
+  text-align: center;
+  margin: 0 30px 0 30px;
 }
 
 .hero-avatar {
-  padding-top: 5px;
-  margin: 4px;
+  margin: 6px;
 }
 
 .hero-avatar-image {
   box-sizing: border-box;
   border: 3px solid rgb(39, 39, 39);
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 }
 
 .hero-avatar-name {
   color: rgb(145, 145, 145);
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   text-align: center;
 }
 
 .hero-claim-box {
+  background: white;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: static;
+  padding: 12px;
+  margin: 12px 40px;
 }
 
 .hero-claim {
-  color: rgb(145, 145, 145);
+  color: black;
   font-family: "Open Sans", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
+  font-style: italic;
   font-weight: bold;
   text-align: center;
 }
 
-/* EQUIPO styles  */
+/************* EQUIPO STYLES  *************/
 
 .about {
   /* margin: 0 15px; */
-  background-color: white;
+  /* background-color: white; */
+  text-align: center;
 }
 .about-title {
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 15px;
   font-size: 24px;
   font-family: "rubik";
@@ -144,6 +156,7 @@ a {
   color: #14d9c4;
   text-transform: uppercase;
 }
+
 .about-text {
   text-align: center;
   font-family: "open sans";
@@ -153,21 +166,21 @@ a {
   margin-bottom: 30px;
 }
 
-/* FORTALEZAS Y DEBILIDADES styles */
+/* FORTALEZAS Y DEBILIDADES STYLES */
 
 .strengths-weaknesses-container {
   /* margin: 0; */
   background-color: rgb(184, 184, 185, 0.2);
+  text-align: center;
 }
 .square {
   height: 50px;
   width: 50px;
   background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translate(0, -50%) rotate(-45deg);
+  transform: translate(0, -115%) rotate(-45deg);
+  margin: auto;
 }
+
 .strengths-weaknesses {
   display: flex;
   flex-direction: column;
@@ -175,16 +188,15 @@ a {
   /* margin: 0 15px; */
 }
 
-.strengths-title,
-.weaknesses-title {
+.strengths-weaknesses-title {
   font-family: "rubik";
   font-size: 22px;
   line-height: 45px;
   color: #099d8d;
   margin-top: 30px;
 }
-.strengths-text,
-.weaknesses-text {
+
+.strengths-weaknesses-text {
   /* align-items: center; */
   text-align: center;
   font-family: "open sans";
@@ -192,7 +204,8 @@ a {
   line-height: 24px;
   color: #54585a;
 }
-.weaknesses-text {
+
+.strengths-weaknesses-text {
   margin-bottom: 45px;
 }
 
@@ -204,8 +217,7 @@ a {
 
 .adalabers-wrapper {
   margin: 0 30px;
-  /* background-color: lightgreen; */
-  padding-top: 30px; /* o margin-top? */
+  padding-top: 30px;
 }
 
 .adalabers-title {
@@ -227,7 +239,7 @@ a {
   margin: 0 auto;
   max-width: 180px;
   max-height: 180px;
-  overflow: hidden; /* ??? */
+  overflow: hidden; /* review */
 }
 
 .card-image {
@@ -261,11 +273,6 @@ a {
   width: 120px;
 }
 
-/* 
-.card-item {
-
-} */
-
 .card-link {
   color: black;
   text-decoration: none;
@@ -285,7 +292,7 @@ a {
   padding: 5px;
 }
 
-/*estilos del footer para móvil*/
+/************* FOOTER styles *************/
 
 .footer {
   border-top: 1px solid #b8b8b9;
@@ -334,7 +341,7 @@ a {
   text-decoration: none;
 }
 
-/* TABLET mediaqueries */
+/************** TABLET mediaqueries ****************/
 
 @media all and (min-width: 768px) {
   /* HEADER media */
@@ -345,28 +352,62 @@ a {
   }
   .header-list {
     position: absolute;
-    top: 5%;
+    top: 15%;
     right: 0;
     width: 45%;
     background-color: #099d8d;
     padding: 16px 45px 14px 0;
     margin: 0;
   }
+
   .link {
     line-height: 1.88;
   }
 
+  /* HERO media */
+
+  .hero-title {
+    font-size: 38px;
+    padding-top: 125px;
+  }
+
+  .hero-avatar {
+    margin: 10px;
+  }
+
+  .hero-avatar-list {
+    flex-wrap: nowrap;
+  }
+
+  .hero-avatar-image {
+    border: 5px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-avatar-name {
+    font-size: 16px;
+  }
+
+  .hero-claim-box {
+    margin-top: 23px;
+    margin-right: 300px;
+  }
+
+  .hero-claim {
+    font-size: 21px;
+  }
+
   /* ABOUT media */
 
-  .about {
-    max-width: 80%;
+  .about-text {
+    padding-bottom: 60px;
   }
+
   .strengths-weaknesses {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
-    /* justify-content: center; */
-    /* align-items: center; */
+    padding-bottom: 60px;
   }
 
   /* ADALABERS media */
@@ -435,6 +476,10 @@ a {
 @media all and (min-width: 1200px) {
   /* HEADER media */
 
+  .header {
+    height: 550px;
+  }
+
   .header-team-name {
     padding: 15px 0 15px 142px;
   }
@@ -446,10 +491,51 @@ a {
     line-height: 2;
   }
 
+  .hero-avatar-list {
+    flex-wrap: nowrap;
+  }
+
+  /* HERO media */
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .hero-avatar {
+    margin: 14px;
+  }
+
+  .hero-avatar-image {
+    border: 6px;
+    width: 170px;
+    height: 170px;
+  }
+
+  .hero-avatar-name {
+    font-size: 20px;
+  }
+
+  .hero-claim-box {
+    padding: 12px;
+    margin: 75px 500px 0 40px;
+  }
+
+  .hero-claim {
+    font-size: 24px;
+  }
+
   /* ABOUT media */
 
   .about {
-    max-width: 50%;
+    /* max-width: 50%; */
+  }
+
+  .about-text {
+    padding-bottom: 60px;
+  }
+
+  .strengths-weaknesses {
+    padding-bottom: 60px;
   }
 
   /* ADALABERS media */
