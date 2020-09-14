@@ -6,15 +6,11 @@
 
 ---
 
-\_
-
 ### PRESENTACIÓN 14.Septiembre.2020
 
-\_
+1. Presentación Patricia Poveda
 
-> Presentación Patricia Poveda
-
-> Presentación Alicia Colom
+2. Presentación Alicia Colom
 
 - **Consecución de objetivos**
 
@@ -52,8 +48,8 @@
 
   Procedemos a hacer breve recorrido en versión TABLET -`768px`- y en versión DESKTOP -`1200px`-.
 
-> Presentación Leire Ordeñana
+3. Presentación Leire Ordeñana
 
-> Presentación Eva Ferreras
+4. Presentación Eva Ferreras
 
-> Presentación Ana Guerra
+5. Presentación Ana Guerra
