@@ -21,55 +21,54 @@ a {
 /************* HEADER STYLES *************/
 
 .header {
-  background: black;
   width: 100%;
+  display: flex;
+  flex-direction: column;
   height: 421px;
   margin-bottom: 50px;
 }
 
 .header-main {
+  width: 100%;
   position: fixed;
   top: 0;
-  width: 100%;
-  opacity: 0.95;
   z-index: 1000;
 }
 
-/* header: contenedor nombre del grupo */
 .header-team-name {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  text-align: center;
-  padding: 15px;
+  padding: 15px 80px;
   background-color: #099d8d;
+  opacity: 95%;
 }
 
-/* header: elementos del contenedor nombre del grupo */
 .logo {
-  height: 50px;
+  height: 30px;
 }
 
-/* header: contenedor menú navegación */
 .header-list {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 8px 17px 7px 16px;
+  margin-top: 0;
   background-color: #14d9c4;
-  margin: 0;
+  opacity: 90%;
+  padding: 8px 2px 7px 16px;
 }
 
-/* header: elementos del contenedor menú navegación */
 .list-item {
-  text-transform: uppercase;
+  list-style-type: none;
 }
 
 .link {
-  color: #ffffff;
+  display: inline-block;
   font-family: "Rubik", sans-serif;
   font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
   line-height: 2;
+  color: #ffffff;
+  padding-right: 15px;
 }
 
 /************* HERO SECTION STYLES *************/
@@ -342,26 +341,30 @@ a {
 }
 
 /************** TABLET mediaqueries ****************/
+/* HEADER media */
 
 @media all and (min-width: 768px) {
-  /* HEADER media */
-
   .header-team-name {
+    width: 50%;
+    height: 60px;
     justify-content: flex-start;
-    padding: 15px 0 15px 45px;
+    padding-left: 15px 45px;
   }
+
   .header-list {
     position: absolute;
-    top: 15%;
-    right: 0;
-    width: 45%;
+    top: 0;
+    left: 50%;
+    width: 51%;
+    height: 60px;
     background-color: #099d8d;
-    padding: 16px 45px 14px 0;
-    margin: 0;
+    opacity: 95%;
+    align-items: center;
+    padding: 16px 27px 14px;
   }
 
   .link {
-    line-height: 1.88;
+    padding-right: 18px;
   }
 
   /* HERO media */
@@ -476,26 +479,19 @@ a {
 @media all and (min-width: 1200px) {
   /* HEADER media */
 
-  .header {
-    height: 550px;
+  .header-team-name {
+    padding-left: 142px;
   }
 
-  .header-team-name {
-    padding: 15px 0 15px 142px;
-  }
   .header-list {
-    width: 35%;
-    padding: 16px 138px 14px 0;
+    padding-right: 138px;
   }
-  .link {
-    line-height: 2;
-  }
+
+  /* HERO media */
 
   .hero-avatar-list {
     flex-wrap: nowrap;
   }
-
-  /* HERO media */
 
   .hero-title {
     font-size: 48px;
