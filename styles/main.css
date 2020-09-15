@@ -142,34 +142,26 @@ a {
 /************* EQUIPO STYLES  *************/
 
 .about {
-  /* margin: 0 15px; */
-  /* background-color: white; */
   text-align: center;
+  margin-bottom: 35px;
 }
 .about-title {
-  text-align: center;
-  /* margin-top: 30px; */
-  margin-bottom: 15px;
   font-size: 24px;
   font-family: "rubik";
   line-height: 45px;
   color: #14d9c4;
   text-transform: uppercase;
 }
-
 .about-text {
-  text-align: center;
   font-family: "open sans";
   font-size: 16px;
   line-height: 24px;
   color: #54585a;
-  margin-bottom: 30px;
 }
 
 /* FORTALEZAS Y DEBILIDADES STYLES */
 
 .strengths-weaknesses-container {
-  /* margin: 0; */
   background-color: rgb(184, 184, 185, 0.2);
   text-align: center;
 }
@@ -182,10 +174,7 @@ a {
 }
 
 .strengths-weaknesses {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* margin: 0 15px; */
+  padding-bottom: 35px;
 }
 
 .strengths-weaknesses-title {
@@ -193,20 +182,15 @@ a {
   font-size: 22px;
   line-height: 45px;
   color: #099d8d;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .strengths-weaknesses-text {
-  /* align-items: center; */
   text-align: center;
   font-family: "open sans";
   font-size: 16px;
   line-height: 24px;
   color: #54585a;
-}
-
-.strengths-weaknesses-text {
-  margin-bottom: 45px;
 }
 
 /************** ADALABERS section styles ***************/
@@ -400,14 +384,18 @@ a {
 
   /* ABOUT media */
 
-  .about-text {
-    padding-bottom: 60px;
+  .about {
+    margin-bottom: 50px;
   }
 
   .strengths-weaknesses {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     padding-bottom: 60px;
+  }
+  .strengths-weaknesses-text {
+    padding: 0 25px;
   }
 
   /* ADALABERS media */
@@ -526,16 +514,13 @@ a {
 
   /* ABOUT media */
 
-  .about {
-    /* max-width: 50%; */
-  }
-
   .about-text {
-    padding-bottom: 60px;
+    padding-bottom: 10px;
+    margin: 0 30%;
   }
 
   .strengths-weaknesses {
-    padding-bottom: 60px;
+    padding: 0 10% 60px 10%;
   }
 
   /* ADALABERS media */
