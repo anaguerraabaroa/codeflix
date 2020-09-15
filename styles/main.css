@@ -26,6 +26,7 @@ a {
   flex-direction: column;
   height: 421px;
   margin-bottom: 50px;
+  background: black;
 }
 
 .header-main {
