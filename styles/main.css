@@ -390,8 +390,7 @@ a {
   }
 
   .hero-claim-box {
-    margin-top: 23px;
-    margin-right: 300px;
+    margin: 20px 300px 0 120px;
   }
 
   .hero-claim {
