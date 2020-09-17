@@ -22,7 +22,7 @@
     "run-sequence": "*"
   },
   "devDependencies": {
-    "lodash.template": ">=4.17.19"
+    "lodash.template": ">=4.5.0"
   },
   "scripts": {
     "start": "./node_modules/.bin/gulp",
