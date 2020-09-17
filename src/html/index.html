@@ -10,148 +10,19 @@
     />
     <!-- <link rel="stylesheet" href="./styles/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
-    <script src="https://kit.fontawesome.com/9699a4c6bb.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/9699a4c6bb.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
-      <div class="header-main">
-        <div class="header-team-name">
-          <a href="index.html">
-            <img
-              class="logo"
-              src="https://fontmeme.com/permalink/200909/84165089e106b0066fa661862435c23b.png"
-              alt="logo Codeflix"
-            />
-          </a>
-        </div>
-        <nav>
-          <ul class="header-list">
-            <li class="list-item">
-              <a class="link" href="#about">Equipo</a>
-            </li>
-            <li class="list-item">
-              <a class="link" href="#adalabers">Quiénes somos</a>
-            </li>
-            <li class="list-item">
-              <a class="link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <div class="hero-main">
-      <div class="hero-title">See what's next</div>
-      <div class="hero-avatar-list">
-        <div class="hero-avatar">
-          <img
-            class="hero-avatar-image"
-            src="./assets/images/alicia-colom.jpg"
-            alt="Avatar de Alicia Colom"
-          />
-          <div class="hero-avatar-name">Alicia</div>
-        </div>
-        <div class="hero-avatar">
-          <img
-            class="hero-avatar-image"
-            src="./assets/images/ana-guerra.jpg"
-            alt="Avatar de Ana Guerra"
-          />
-          <div class="hero-avatar-name">Ana</div>
-        </div>
-        <div class="hero-avatar">
-          <img
-            class="hero-avatar-image"
-            src="./assets/images/eva-ferreras.jpg"
-            alt="Avatar de Eva Ferreras"
-          />
-          <div class="hero-avatar-name">Eva</div>
-        </div>
-        <div class="hero-avatar">
-          <img
-            class="hero-avatar-image"
-            src="./assets/images/leire-ordenana.jpg"
-            alt="Avatar de Leire Ordeñana"
-          />
-          <div class="hero-avatar-name">Leire</div>
-        </div>
-        <div class="hero-avatar">
-          <img
-            class="hero-avatar-image"
-            src="./assets/images/patricia-poveda.jpg"
-            alt="Avatar de Patricia Poveda"
-          />
-          <div class="hero-avatar-name">Patricia</div>
-        </div>
-      </div>
-    </div>
-    <div class="hero-claim-box">
-      <h1 class="hero-claim">Code and chill</h1>
-    </div>
+    <include src="./partials/header.html"></include>
+    <include src="./partials/hero.html"></include>
     <main>
-      <section id="about" class="about">
-        <div class="adalabers-wrapper">
-          <div class="about-text">
-            <h1 class="about-title">Equipo</h1>
-            <p>
-              En Codeflix puedes encontrar una selección de Adalabers originales que no te puedes
-              perder.
-            </p>
-            <p>
-              Hemos cambiado las maratones de series por las maratones de código, y ahora pasamos
-              más tiempo buscando en StackOverflow que en el catálogo de Netflix. Seguir viendo...
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="strengths-weaknesses-container">
-        <div class="adalabers-wrapper">
-          <div class="square"></div>
-          <div class="strengths-weaknesses">
-            <div>
-              <h2 class="strengths-weaknesses-title">Fortalezas</h2>
-              <p class="strengths-weaknesses-text">
-                Habituadas a trabajar con herramientas digitales y con inquietudes por seguir
-                formándonos, afrontamos esta nueva andadura profesional con el reto de llegar a
-                programar como Richard Hendricks. Con valentía nos hemos tomado la pastilla roja de
-                Matrix.
-              </p>
-            </div>
-            <div>
-              <h2 class="strengths-weaknesses-title">Debilidades</h2>
-              <p class="strengths-weaknesses-text">
-                Vernos como protagonistas de Contagio, y estar viviendo un capítulo de Black Mirror,
-                nos ha lanzado a convertirnos en ADALABERS. Aunque la falta de experiencia pueda
-                hacernos parecer la niña de El Exorcista, lo afrontamos tan motivadas como Peggy en
-                Mad Men.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <include src="./partials/about.html"></include>
+      <include src="./partials/strengths-weaknesses.html"></include>
       <include src="./partials/adalabers.html"></include>
     </main>
-
-    <footer class="footer">
-      <div class="footer-copyright">
-        <p>Codeflix &#169; 2020</p>
-      </div>
-      <nav class="footer-menu">
-        <ul class="footer-list">
-          <li>
-            <a href="#about">Equipo </a>
-          </li>
-          <li>
-            <a href="#adalabers">Quiénes somos </a>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="footer-image">
-        <img class="footer-logo" src="./assets/images/adalab_brand.png" alt="Logo de Adalab" />
-      </div>
-    </footer>
+    <include src="./partials/footer.html"></include>
   </body>
 </html>
