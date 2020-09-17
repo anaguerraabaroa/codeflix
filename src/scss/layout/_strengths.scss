@@ -1,0 +1,42 @@
+.strengths-weaknesses-container {
+  background-color: rgba(184, 184, 185, 0.2);
+  text-align: center;
+}
+.square {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  transform: translate(0, -115%) rotate(-45deg);
+  margin: auto;
+}
+
+.strengths-weaknesses {
+  padding-bottom: 35px;
+}
+
+.strengths-weaknesses-title {
+  font-family: "rubik";
+  font-size: 22px;
+  line-height: 45px;
+  color: #099d8d;
+  margin-top: 0px;
+}
+
+.strengths-weaknesses-text {
+  text-align: center;
+  font-family: "open sans";
+  font-size: 16px;
+  line-height: 24px;
+  color: #54585a;
+}
+@media all and (min-width: 768px) {
+  .strengths-weaknesses {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+  }
+  .strengths-weaknesses-text {
+    padding: 0 25px;
+  }
+}
