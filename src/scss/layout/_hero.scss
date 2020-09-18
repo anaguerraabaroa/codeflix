@@ -3,6 +3,9 @@
   width: 100%;
   max-height: 421px;
   position: relative;
+  @media all and (min-width: 1200px) {
+    max-height: 550px;
+  }
 }
 
 .hero-main {
@@ -17,7 +20,14 @@
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding: 115px 0 20px 0;
+  padding: 150px 0 20px 0;
+  @media all and (min-width: 768px) {
+    font-size: 38px;
+    padding-top: 125px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 48px;
+  }
 }
 
 .hero-avatar-list {
@@ -32,6 +42,9 @@
 
 .hero-avatar {
   margin: 6px;
+  @media all and (min-width: 1200px) {
+    margin: 14px;
+  }
 }
 
 .hero-avatar-image {
@@ -39,6 +52,16 @@
   border: 3px solid rgb(39, 39, 39);
   width: 65px;
   height: 65px;
+  @media all and (min-width: 768px) {
+    border: 5px;
+    width: 120px;
+    height: 120px;
+  }
+  @media all and (min-width: 1200px) {
+    border: 6px;
+    width: 170px;
+    height: 170px;
+  }
 }
 
 .hero-avatar-name {
@@ -47,6 +70,12 @@
   font-size: 10px;
   font-weight: bold;
   text-align: center;
+  @media all and (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 20px;
+  }
 }
 
 .hero-claim-box {
@@ -55,8 +84,16 @@
   flex-direction: row;
   justify-content: left;
   position: relative;
-  top: 10px;
   margin: 15px;
+  @media all and (min-width: 768px) {
+    width: 441px;
+    margin-left: 60px;
+    opacity: 0.8;
+  }
+  @media all and (min-width: 1200px) {
+    width: 601px;
+    margin-left: 120px;
+  }
 }
 
 .hero-claim {
@@ -66,72 +103,10 @@
   font-weight: bold;
   text-align: center;
   margin: 15px;
-}
-@media all and (min-width: 768px) {
-  /* HERO media */
-
-  .hero-title {
-    font-size: 38px;
-    padding-top: 125px;
-  }
-
-  .hero-avatar {
-    margin: 10px;
-  }
-
-  .hero-avatar-list {
-    flex-wrap: nowrap;
-  }
-
-  .hero-avatar-image {
-    border: 5px;
-    width: 120px;
-    height: 120px;
-  }
-
-  .hero-avatar-name {
-    font-size: 16px;
-  }
-
-  .hero-claim-box {
-    margin: 20px 300px 0 120px;
-  }
-
-  .hero-claim {
-    font-size: 21px;
-  }
-}
-@media all and (min-width: 1200px) {
-  /* HERO media */
-
-  .hero-title {
-    font-size: 48px;
-  }
-
-  .hero-avatar-list {
-    flex-wrap: nowrap;
-  }
-
-  .hero-avatar {
-    margin: 14px;
-  }
-
-  .hero-avatar-image {
-    border: 6px;
-    width: 170px;
-    height: 170px;
-  }
-
-  .hero-avatar-name {
+  @media all and (min-width: 768px) {
     font-size: 20px;
   }
-
-  .hero-claim-box {
-    padding: 12px;
-    margin: 75px 500px 0 40px;
-  }
-
-  .hero-claim {
+  @media all and (min-width: 1200px) {
     font-size: 24px;
   }
 }
