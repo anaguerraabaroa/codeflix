@@ -1,3 +1,6 @@
+.hero {
+}
+
 .hero-main {
   background: black;
   width: 100%;
@@ -5,7 +8,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .hero-title {
@@ -14,7 +16,7 @@
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding: 150px 0 20px 0;
+  padding: 115px 0 20px 0;
 }
 
 .hero-avatar-list {
@@ -54,7 +56,6 @@
   justify-content: center;
   position: static;
   padding: 12px;
-  margin: 12px 40px;
 }
 
 .hero-claim {
