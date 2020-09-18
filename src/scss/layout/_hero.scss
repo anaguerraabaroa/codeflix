@@ -1,10 +1,11 @@
 .hero {
+  background: black;
+  width: 100%;
+  max-height: 421px;
+  position: relative;
 }
 
 .hero-main {
-  background: black;
-  width: 100%;
-  height: 421px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,21 +51,21 @@
 
 .hero-claim-box {
   background: white;
-  opacity: 0.8;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  position: static;
-  padding: 12px;
+  justify-content: left;
+  position: relative;
+  top: 10px;
+  margin: 15px;
 }
 
 .hero-claim {
   color: black;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  font-style: italic;
   font-weight: bold;
   text-align: center;
+  margin: 15px;
 }
 @media all and (min-width: 768px) {
   /* HERO media */
