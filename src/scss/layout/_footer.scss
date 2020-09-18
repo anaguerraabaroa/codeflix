@@ -1,0 +1,75 @@
+.footer {
+  border-top: 1px solid #b8b8b9;
+  width: 100%;
+  text-align: center;
+  padding: 30px auto 45px auto;
+}
+
+.footer-copyright {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #b8b8b9;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #54585a;
+  opacity: 0.75;
+  text-transform: uppercase; /*para convertir en mayúsculas*/
+  margin-bottom: 30px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+} /*para quitar los puntos y el padding de los <li>*/
+
+.footer-image {
+  margin: 0 auto;
+  max-width: 100px;
+  padding-bottom: 45px;
+} /*contenedor para que la imagen se ajuste al ancho*/
+
+.footer-logo {
+  width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media all and (min-width: 768px) {
+  /* FOOTER media */
+
+  .footer {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 30px 45px 60px 45px;
+  }
+
+  .footer-menu {
+    order: 1; /*para poner el bloque de menú a la dcha*/
+    text-align: right;
+    line-height: 2.14;
+  }
+
+  .footer-image {
+    position: absolute; /*para sacar el logo del flujo*/
+    top: 45%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  /* FOOTER media */
+
+  .footer {
+    padding: 30px 138px 60px 138px;
+  }
+}

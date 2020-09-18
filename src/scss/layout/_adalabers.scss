@@ -1,0 +1,24 @@
+.adalabers {
+  text-align: center;
+}
+
+.codeflix-wrapper {
+  margin: 0 15px;
+  padding-top: 30px;
+}
+
+.adalabers-title {
+  margin: 30px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.88;
+  color: #099d8d;
+}
+
+@media all and (min-width: 768px) {
+  /* ADALABERS media */
+
+  .adalabers-title {
+    margin: 45px 0;
+  }
+}
