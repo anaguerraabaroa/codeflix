@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codeflix Adalab - Contacto</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Rubik:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-main">
+        <div class="header-team-name">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="https://fontmeme.com/permalink/200909/84165089e106b0066fa661862435c23b.png"
+              alt="logo Codeflix"
+            />
+          </a>
+        </div>
+        <nav>
+          <ul class="header-list">
+            <li class="list-item">
+              <a class="link" href="./index.html#about">Equipo</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="./index.html#adalabers">Quiénes somos</a>
+            </li>
+            <li class="list-item">
+              <a class="link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-main">
+          <div class="hero-title">See what's next</div>
+          <div class="hero-avatar-list">
+            <div class="hero-avatar">
+              <img
+                class="hero-avatar-image"
+                src="./assets/images/alicia-colom.jpg"
+                alt="Avatar de Alicia Colom"
+              />
+              <div class="hero-avatar-name">Alicia</div>
+            </div>
+            <div class="hero-avatar">
+              <img
+                class="hero-avatar-image"
+                src="./assets/images/ana-guerra.jpg"
+                alt="Avatar de Ana Guerra"
+              />
+              <div class="hero-avatar-name">Ana</div>
+            </div>
+            <div class="hero-avatar">
+              <img
+                class="hero-avatar-image"
+                src="./assets/images/eva-ferreras.jpg"
+                alt="Avatar de Eva Ferreras"
+              />
+              <div class="hero-avatar-name">Eva</div>
+            </div>
+            <div class="hero-avatar">
+              <img
+                class="hero-avatar-image"
+                src="./assets/images/leire-ordenana.jpg"
+                alt="Avatar de Leire Ordeñana"
+              />
+              <div class="hero-avatar-name">Leire</div>
+            </div>
+            <div class="hero-avatar">
+              <img
+                class="hero-avatar-image"
+                src="./assets/images/patricia-poveda.jpg"
+                alt="Avatar de Patricia Poveda"
+              />
+              <div class="hero-avatar-name">Patricia</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-claim-box">
+          <h1 class="hero-claim">Code and chill</h1>
+        </div>
+      </section>
+
+      <section id="" class="contact">
+        <div class="codeflix-wrapper">
+          <div class="contact-text">
+            <h1 class="contact-title">Contacto</h1>
+            <p>
+              ¿Quieres estar al tanto de las próximas temporadas de nuestras
+              Adalabers? ¿Tienes alguna otra pregunta? Contáctanos y te haremos todos
+              los spoilers que nos pidas.
+            </p>
+            <small
+              >Todos los campos marcados con <span class="asterisk">*</span> son
+              obligatorios</small
+            >
+          </div>
+          <form action="" method="POST">
+            <fieldset class="form-fieldset">
+              <div class="form-field">
+                <!-- Esta clase la hemos creado por si necesitáis dar estilos a los items del formulario -->
+                <label for="name"
+                  >Nombre completo <span class="asterisk">*</span></label
+                >
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Nombre..."
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="email">Email <span class="asterisk">*</span></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="nombre.apellidos@mail.com"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="telephone">Teléfono </label>
+                <input
+                  type="tel"
+                  name="telephone"
+                  id="telephone"
+                  placeholder="Ej: 123456789"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">Mensaje <span class="asterisk">*</span></label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="¿Qué necesitas?"
+                  required
+                ></textarea>
+              </div>
+              <input class="form-button" type="submmit" value="Enviar" />
+            </fieldset>
+          </form>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="footer-copyright">
+        <p>Codeflix &#169; 2020</p>
+      </div>
+      <nav class="footer-menu">
+        <ul class="footer-list">
+          <li>
+            <a href="./index.html#about">Equipo </a>
+          </li>
+          <li>
+            <a href="./index.html#adalabers">Quiénes somos </a>
+          </li>
+          <li>
+            <a href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer-image">
+        <img
+          class="footer-logo"
+          src="./assets/images/adalab_brand.png"
+          alt="Logo de Adalab"
+        />
+      </div>
+    </footer>
+
+  </body>
+</html>
