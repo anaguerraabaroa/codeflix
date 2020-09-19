@@ -11,9 +11,9 @@
 .header-team-name {
   display: flex;
   justify-content: center;
-  padding: 15px 80px;
   background-color: #099d8d;
   opacity: 95%;
+  padding: 15px 80px;
 }
 
 .logo {
@@ -44,10 +44,6 @@
   padding-right: 15px;
 }
 
-.link:hover {
-  background-color: #099d8d;
-}
-
 /************** TABLET mediaqueries ****************/
 /* HEADER media */
 
@@ -59,7 +55,9 @@
   }
 
   .header-list {
+    width: 50%;
     position: relative;
+    left: 50%;
     bottom: 60px;
     background-color: transparent;
     opacity: 95%;
