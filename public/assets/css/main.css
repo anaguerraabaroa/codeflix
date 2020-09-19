@@ -330,23 +330,23 @@ a {
   position: fixed;
   top: 0;
   z-index: 1; }
-  .header .header-team-name {
+  .header__teamName {
     display: flex;
     justify-content: center;
     background-color: #099d8d;
     opacity: 95%;
     padding: 15px 80px; }
     @media all and (min-width: 768px) {
-      .header .header-team-name {
+      .header__teamName {
         height: 60px;
         justify-content: flex-start;
         padding-left: 45px; } }
     @media all and (min-width: 1200px) {
-      .header .header-team-name {
+      .header__teamName {
         padding-left: 142px; } }
-    .header .header-team-name .logo {
+    .header__teamName--logo {
       height: 30px; }
-  .header .header-list {
+  .header__list {
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -354,7 +354,7 @@ a {
     opacity: 90%;
     padding: 8px 2px 7px 16px; }
     @media all and (min-width: 768px) {
-      .header .header-list {
+      .header__list {
         width: 50%;
         position: relative;
         left: 50%;
@@ -363,20 +363,20 @@ a {
         opacity: 95%;
         justify-content: flex-end;
         padding: 16px 27px 14px; } }
-    .header .header-list .list-item {
+    .header__list--item {
       list-style-type: none; }
-      .header .header-list .list-item .link {
-        display: inline-block;
-        font-family: "Rubik", sans-serif;
-        font-size: 15px;
-        font-weight: 500;
-        text-transform: uppercase;
-        line-height: 2;
-        color: #ffffff;
-        padding-right: 15px; }
-        @media all and (min-width: 768px) {
-          .header .header-list .list-item .link {
-            padding-right: 18px; } }
+    .header__list--link {
+      display: inline-block;
+      font-family: "Rubik", sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
+      line-height: 2;
+      color: #ffffff;
+      padding-right: 15px; }
+      @media all and (min-width: 768px) {
+        .header__list--link {
+          padding-right: 18px; } }
 
 .hero {
   background: black;
