@@ -38,7 +38,7 @@
 .input-style {
   display: block;
   width: 100%;
-  margin-top: 8px;
+  margin-top: 10px;
   height: 45px;
 }
 
@@ -57,9 +57,60 @@
   text-align: center;
   border-radius: 4px;
   border: none;
-  background-color: #099d8d;
-  color: white;
+  background-color: $backgroundButton;
+  color: $colorTextButton;
   height: 45px;
   width: 100%;
   cursor: pointer;
+}
+
+@media all and (min-width: 768px) {
+  .contact-text,
+  .form-field {
+    margin-left: 163px;
+    margin-right: 163px;
+  }
+
+  .contact-text {
+    padding: 0 25px 58 25px;
+  }
+
+  .button-container {
+    margin: 20px 163px 60px auto;
+    width: 278px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .contact-text,
+  .form-field {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 10px;
+  }
+
+  .email-telephone-wrapper {
+    display: flex;
+    margin: -10px 0;
+  }
+
+  .form-field-email {
+    margin-left: 300px;
+    margin-right: 45px;
+    flex-grow: 2;
+  }
+
+  .form-field-telephone {
+    margin-left: 0;
+    margin-right: 300px;
+  }
+
+  .contact-text {
+    padding: 0 50px;
+  }
+
+  .button-container {
+    margin: 20px 300px 120px auto;
+    width: 350px;
+  }
 }
