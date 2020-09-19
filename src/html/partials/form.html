@@ -2,7 +2,7 @@
   <div class="codeflix-wrapper">
     <div class="contact-text">
       <h1 class="contact-title">Contacto</h1>
-      <p>
+      <p class="contact-paragraph">
         ¿Quieres estar al tanto de las próximas temporadas de nuestras
         Adalabers? ¿Tienes alguna otra pregunta? Contáctanos y te haremos todos
         los spoilers que nos pidas.
@@ -20,6 +20,7 @@
             >Nombre completo <span class="asterisk">*</span></label
           >
           <input
+            class="input-style"
             type="text"
             name="name"
             id="name"
@@ -27,35 +28,42 @@
             required
           />
         </div>
-        <div class="form-field">
-          <label for="email">Email <span class="asterisk">*</span></label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="nombre.apellidos@mail.com"
-            required
-          />
-        </div>
-        <div class="form-field">
-          <label for="telephone">Teléfono </label>
-          <input
-            type="tel"
-            name="telephone"
-            id="telephone"
-            placeholder="Ej: 123456789"
-          />
+        <div class="email-telephone-wrapper">
+          <div class="form-field form-field-email">
+            <label for="email">Email <span class="asterisk">*</span></label>
+            <input
+              class="input-style email-input-style"
+              type="email"
+              name="email"
+              id="email"
+              value="nombre.apellidos@mail.com"
+              required
+            />
+          </div>
+          <div class="form-field form-field-telephone">
+            <label for="telephone">Teléfono </label>
+            <input
+              class="input-style telephone-input-style"
+              type="tel"
+              name="telephone"
+              id="telephone"
+              placeholder="Ej: 123456789"
+            />
+          </div>
         </div>
         <div class="form-field">
           <label for="message">Mensaje <span class="asterisk">*</span></label>
           <textarea
+            class="input-style textarea-style"
             name="message"
             id="message"
             placeholder="¿Qué necesitas?"
             required
           ></textarea>
         </div>
-        <input class="form-button" type="submmit" value="Enviar" />
+        <div class="button-container">
+          <input class="form-button" type="submmit" value="Enviar" />
+        </div>
       </fieldset>
     </form>
   </div>
