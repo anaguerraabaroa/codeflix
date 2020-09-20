@@ -1,10 +1,12 @@
 .about {
   text-align: center;
-  margin-bottom: 35px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
 .about-title {
   font-size: 24px;
   font-family: "rubik";
+  font-weight: 500;
   line-height: 45px;
   color: #14d9c4;
   text-transform: uppercase;
@@ -15,23 +17,14 @@
   line-height: 24px;
   color: #54585a;
 }
-@media all and (min-width: 768px) {
-  /* ABOUT media */
 
+@media all and (min-width: 768px) {
   .about {
-    margin-bottom: 50px;
+    margin: 45px 30px 60px 30px;
   }
 }
-
 @media all and (min-width: 1200px) {
-  /* ABOUT media */
-
   .about-text {
-    padding-bottom: 10px;
     margin: 0 30%;
-  }
-
-  .strengths-weaknesses {
-    padding: 0 10% 60px 10%;
   }
 }
