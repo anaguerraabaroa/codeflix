@@ -489,14 +489,14 @@ a {
 
 .about-title {
   font-size: 24px;
-  font-family: "rubik";
+  font-family: "Rubik", sans-serif;
   font-weight: 500;
   line-height: 45px;
   color: #14d9c4;
   text-transform: uppercase; }
 
 .about-text {
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #54585a; }
@@ -516,7 +516,7 @@ a {
 .square {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-color: #ffffff;
   transform: translate(0, -49%) rotate(-45deg);
   margin: auto; }
 
@@ -524,7 +524,7 @@ a {
   padding-bottom: 15px; }
 
 .strengths-weaknesses-title {
-  font-family: "rubik";
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 45px;
@@ -533,7 +533,7 @@ a {
 
 .strengths-weaknesses-text {
   text-align: center;
-  font-family: "open sans";
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #54585a;

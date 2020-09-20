@@ -5,17 +5,17 @@
 }
 .about-title {
   font-size: 24px;
-  font-family: "rubik";
+  font-family: $fontTitle;
   font-weight: 500;
   line-height: 45px;
-  color: #14d9c4;
+  color: $colorAboutTitle;
   text-transform: uppercase;
 }
 .about-text {
-  font-family: "open sans";
+  font-family: $fontText;
   font-size: 16px;
   line-height: 24px;
-  color: #54585a;
+  color: $colorText;
 }
 
 @media all and (min-width: 768px) {

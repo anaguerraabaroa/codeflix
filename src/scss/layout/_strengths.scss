@@ -5,7 +5,7 @@
 .square {
   height: 50px;
   width: 50px;
-  background-color: white;
+  background-color: $backgroundStandard;
   transform: translate(0, -49%) rotate(-45deg);
   margin: auto;
 }
@@ -15,20 +15,20 @@
 }
 
 .strengths-weaknesses-title {
-  font-family: "rubik";
+  font-family: $fontTitle;
   font-size: 22px;
   font-weight: 500;
   line-height: 45px;
-  color: #099d8d;
+  color: $colorStrengthsTitle;
   margin: 0;
 }
 
 .strengths-weaknesses-text {
   text-align: center;
-  font-family: "open sans";
+  font-family: $fontText;
   font-size: 16px;
   line-height: 24px;
-  color: #54585a;
+  color: $colorText;
   margin: 0 0 30px 0;
 }
 @media all and (min-width: 768px) {
