@@ -594,7 +594,7 @@ a {
   width: 100%;
   border: solid 5px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
-  transition: visibility ease 0.3s; }
+  transition: visibility ease 0.5s; }
 
 /* hover effects */
 .character-image {
@@ -606,7 +606,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  transition: visibility ease 0.3s, opacity ease 0.3s; }
+  transition: visibility ease 0.5s, opacity ease 0.5s; }
 
 .card-image-container:hover .card-image {
   visibility: hidden; }
