@@ -1,6 +1,6 @@
 .adalabers-card {
   margin-bottom: 45px;
-  font-family: "Open Sans";
+  font-family: $fontText;
   font-size: 1rem; /* 16px */
 }
 
@@ -10,6 +10,7 @@
   max-width: 180px;
   max-height: 180px;
   overflow: hidden; /* review */
+  position: relative;
 }
 
 .card-image {
@@ -17,7 +18,33 @@
   width: 100%;
   border: solid 5px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
+  transition: visibility ease 0.3s;
 }
+
+/* hover effects */
+
+.character-image {
+  visibility: hidden;
+  opacity: 0;
+  width: 100%;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: visibility ease 0.3s, opacity ease 0.3s;
+}
+
+.card-image-container:hover .card-image {
+  visibility: hidden;
+}
+
+.card-image-container:hover .character-image {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* end hover effects */
 
 .card-info-container {
   width: 100%;
@@ -25,15 +52,20 @@
 }
 
 .card-name {
-  margin: 15px 0;
+  margin-top: 15px;
+  margin-bottom: 0;
   font-size: 1.25rem;
   line-height: 2.25;
+  font-weight: normal;
+  color: $colorAdalabersName;
 }
 
 .card-text {
-  color: #54585a;
+  color: $colorText;
   line-height: 1.5;
   margin-bottom: 15px;
+  // padding: 0 10px;
+  margin-top: 0;
 }
 
 .card-list {
@@ -52,15 +84,16 @@
 
 .fab,
 .fas {
-  color: #099d8d;
+  color: $backgroundLogo;
   font-size: 1rem; /* 16px */
 }
 
 .fab::after {
   content: "·";
-  color: #54585a;
+  color: $colorText;
   padding: 5px;
 }
+
 @media all and (min-width: 768px) {
   .adalabers-card {
     margin-bottom: 60px;
@@ -81,15 +114,25 @@
     max-height: 205px;
   }
 
+  /* NEW flex container */
   .card-info-container {
     text-align: left;
     margin-left: 30px;
     width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .card-name {
+    margin-top: 0;
   }
 
   .info-reverse {
     margin-right: 30px;
     margin-left: 0;
+    text-align: right;
+    justify-content: flex-end;
   }
 
   .card-list {
@@ -100,8 +143,7 @@
 @media all and (min-width: 1200px) {
   /* ADALABERS media */
   .adalabers-card {
-    max-width: 50rem;
-    margin: 60px auto;
+    margin-bottom: 60px;
   }
 
   .card-wrapper {
@@ -117,6 +159,10 @@
   .card-info-container {
     text-align: left;
     margin-left: 45px;
-    width: 27rem;
   }
+
+  .info-reverse {
+    text-align: right;
+  }
+
 }
