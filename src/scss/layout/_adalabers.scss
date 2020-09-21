@@ -15,10 +15,21 @@
   color: #099d8d;
 }
 
+h2 {
+  position: relative;
+}
+h2 span {
+  position: absolute;
+  top: -125px;
+}
+
 @media all and (min-width: 768px) {
   /* ADALABERS media */
 
   .adalabers-title {
     margin: 45px 0;
+  }
+  h2 span {
+    top: -75px;
   }
 }

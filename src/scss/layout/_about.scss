@@ -15,11 +15,25 @@
   line-height: 24px;
   color: #54585a;
 }
+
+h1 {
+  position: relative;
+}
+
+h1 span {
+  position: absolute;
+  top: -125px;
+}
+
 @media all and (min-width: 768px) {
   /* ABOUT media */
 
   .about {
     margin-bottom: 50px;
+  }
+
+  h1 span {
+    top: -75px;
   }
 }
 
