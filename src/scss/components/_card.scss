@@ -65,6 +65,7 @@
   line-height: 1.5;
   margin-bottom: 15px;
   margin-top: 0;
+  padding: 0 10px;
 }
 
 .card-list {
@@ -95,7 +96,7 @@
 
 @media all and (min-width: 768px) {
   .adalabers-card {
-    margin-bottom: 60px;
+    margin: 0 30px 60px 30px;
   }
 
   .card-wrapper {
