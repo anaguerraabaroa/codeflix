@@ -4,7 +4,6 @@
 
 .codeflix-wrapper {
   margin: 0 15px;
-  padding-top: 30px;
 }
 
 .adalabers-title {
@@ -12,7 +11,7 @@
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1.88;
-  color: #099d8d;
+  color: $colorAdalabersTitle;
 }
 
 h2 {
@@ -31,5 +30,12 @@ h2 span {
   }
   h2 span {
     top: -75px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .adalabers {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
