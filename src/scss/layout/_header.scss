@@ -25,6 +25,19 @@
 
   &--logo {
     height: 30px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    @keyframes logo {
+      from {
+        opacity: 0;
+        transform: scale(10) rotate(-150deg);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
   }
 }
 
@@ -62,6 +75,7 @@
     line-height: 2;
     color: $colorFontHeader;
     padding: 8px 7.5px 7px;
+    transition: background-color ease 1s;
     @media all and (min-width: 768px) {
       padding: 16px 9px 14px;
     }
