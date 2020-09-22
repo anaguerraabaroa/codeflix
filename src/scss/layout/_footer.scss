@@ -2,23 +2,22 @@
   border-top: 1px solid #b8b8b9;
   width: 100%;
   text-align: center;
-  padding: 30px auto 45px auto;
+  // padding: 30px 0 45px 0;
 }
 
 .footer-copyright {
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontText;
   font-size: 14px;
-  color: #b8b8b9;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  color: $colorCopyright;
+  margin: 30px 0 20px 0;
 }
 
 .footer-menu {
-  font-family: "Open Sans", sans-serif;
+  font-family: $fontText;
   font-size: 14px;
   font-weight: 600;
   line-height: 25px;
-  color: #54585a;
+  color: $colorFooterMenu;
   opacity: 0.75;
   text-transform: uppercase; /*para convertir en mayúsculas*/
   margin-bottom: 30px;
@@ -32,7 +31,7 @@
 .footer-image {
   margin: 0 auto;
   max-width: 100px;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 } /*contenedor para que la imagen se ajuste al ancho*/
 
 .footer-logo {
@@ -40,36 +39,49 @@
   display: block;
 }
 
-a {
+.links {
   color: inherit;
   text-decoration: none;
+  &:hover {
+    color: $colorContactTitle;
+  }
 }
-@media all and (min-width: 768px) {
-  /* FOOTER media */
 
+@media all and (min-width: 768px) {
   .footer {
     display: flex;
     position: relative;
     justify-content: space-between;
-    padding: 30px 45px 60px 45px;
+  }
+
+  .footer-copyright {
+    margin: 30px 0 15px 45px;
   }
 
   .footer-menu {
     order: 1; /*para poner el bloque de menú a la dcha*/
     text-align: right;
     line-height: 2.14;
+    margin: 24px 45px 56px 0;
   }
 
   .footer-image {
     position: absolute; /*para sacar el logo del flujo*/
     top: 45%;
+    margin: 0 0 60px 45px;
   }
 }
 
 @media all and (min-width: 1200px) {
-  /* FOOTER media */
+  .footer-copyright {
+    margin: 30px 0 15px 138px;
+  }
 
-  .footer {
-    padding: 30px 138px 60px 138px;
+  .footer-menu {
+    margin: 24px 138px 47px 0;
+  }
+
+  .footer-image {
+    margin: 0 0 50px 138px;
   }
 }
