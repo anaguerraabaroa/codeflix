@@ -5,38 +5,48 @@
 .square {
   height: 50px;
   width: 50px;
-  background-color: white;
-  transform: translate(0, -115%) rotate(-45deg);
+  background-color: $backgroundStandard;
+  transform: translate(0, -49%) rotate(-45deg);
   margin: auto;
 }
 
 .strengths-weaknesses {
-  padding-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 .strengths-weaknesses-title {
-  font-family: "rubik";
+  font-family: $fontTitle;
   font-size: 22px;
+  font-weight: 500;
   line-height: 45px;
-  color: #099d8d;
-  margin-top: 0px;
+  color: $colorStrengthsTitle;
+  margin: 0;
 }
 
 .strengths-weaknesses-text {
   text-align: center;
-  font-family: "open sans";
+  font-family: $fontText;
   font-size: 16px;
   line-height: 24px;
-  color: #54585a;
+  color: $colorText;
+  margin: 0 0 30px 0;
 }
 @media all and (min-width: 768px) {
   .strengths-weaknesses {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-bottom: 60px;
+    padding: 0 10px 30px 10px;
   }
   .strengths-weaknesses-text {
-    padding: 0 25px;
+    padding: 0 20px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .strengths-weaknesses {
+    padding: 0 10% 30px 10%;
+  }
+  .strengths-weaknesses-text {
+    padding: 0 40px;
   }
 }
