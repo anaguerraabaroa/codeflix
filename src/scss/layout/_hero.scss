@@ -1,10 +1,10 @@
 .hero {
   background: black;
   width: 100%;
-  max-height: 421px;
+  height: 421px;
   position: relative;
   @media all and (min-width: 1200px) {
-    max-height: 550px;
+    height: 550px;
   }
 }
 
@@ -20,78 +20,83 @@
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding: 150px 0 20px 0;
+  padding: 140px 0 25px 0;
   @media all and (min-width: 768px) {
     font-size: 38px;
-    padding-top: 125px;
+    padding-top: 105px;
+    padding-bottom: 35px;
   }
   @media all and (min-width: 1200px) {
-    font-size: 48px;
+    font-size: 50px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
 }
 
-.hero-avatar-list {
+.hero-list {
   position: static;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin: 0 30px 0 30px;
-}
+  margin: 0 30px;
 
-.hero-avatar {
-  margin: 6px;
-  @media all and (min-width: 1200px) {
-    margin: 14px;
+  &__avatar {
+    margin: 6px;
+    @media all and (min-width: 1200px) {
+      margin: 14px;
+    }
+
+    &--image {
+      box-sizing: border-box;
+      border: 3px solid rgb(39, 39, 39);
+      width: 65px;
+      height: 65px;
+      @media all and (min-width: 768px) {
+        border: 5px;
+        width: 120px;
+        height: 120px;
+      }
+      @media all and (min-width: 1200px) {
+        border: 7px;
+        width: 180px;
+        height: 180px;
+      }
+    }
+
+    &--name {
+      color: rgb(145, 145, 145);
+      font-family: "Open Sans", sans-serif;
+      font-size: 10px;
+      font-weight: bold;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        font-size: 16px;
+      }
+      @media all and (min-width: 1200px) {
+        font-size: 20px;
+      }
+    }
   }
 }
-
-.hero-avatar-image {
-  box-sizing: border-box;
-  border: 3px solid rgb(39, 39, 39);
-  width: 65px;
-  height: 65px;
-  @media all and (min-width: 768px) {
-    border: 5px;
-    width: 120px;
-    height: 120px;
-  }
-  @media all and (min-width: 1200px) {
-    border: 6px;
-    width: 170px;
-    height: 170px;
-  }
-}
-
-.hero-avatar-name {
-  color: rgb(145, 145, 145);
-  font-family: "Open Sans", sans-serif;
-  font-size: 10px;
-  font-weight: bold;
-  text-align: center;
-  @media all and (min-width: 768px) {
-    font-size: 16px;
-  }
-  @media all and (min-width: 1200px) {
-    font-size: 20px;
-  }
-}
-
 .hero-claim-box {
   background: white;
   display: flex;
   flex-direction: row;
   justify-content: left;
   position: relative;
-  margin: 15px;
+  transform: translate(0, 50%);
+  margin: 0 15px;
   @media all and (min-width: 768px) {
     width: 441px;
     margin-left: 60px;
+    margin-top: 14px;
     opacity: 0.8;
   }
   @media all and (min-width: 1200px) {
     width: 601px;
+    margin-top: 13px;
     margin-left: 120px;
   }
 }
@@ -104,7 +109,7 @@
   text-align: center;
   margin: 15px;
   @media all and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 15px;
   }
   @media all and (min-width: 1200px) {
     font-size: 24px;
