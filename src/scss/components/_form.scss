@@ -64,6 +64,11 @@
   cursor: pointer;
 }
 
+input[placeholder],
+textarea[placeholder] {
+  padding: 10px 20px;
+}
+
 @media all and (min-width: 768px) {
   .contact-text,
   .form-field {

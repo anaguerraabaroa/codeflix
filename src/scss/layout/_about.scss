@@ -18,9 +18,24 @@
   color: $colorText;
 }
 
+h1 {
+  position: relative;
+}
+
+h1 span {
+  position: absolute;
+  top: -125px;
+}
+
+/* ABOUT media */
+
 @media all and (min-width: 768px) {
   .about {
     margin: 45px 30px 60px 30px;
+  }
+
+  h1 span {
+    top: -75px;
   }
 }
 @media all and (min-width: 1200px) {
