@@ -6,20 +6,42 @@
   margin: 0 15px;
 }
 
-.adalabers-title {
+.adalabers__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 105px repeat(5, 1fr);
+  @media all and (min-width: 768px) {
+    grid-template-rows: 131px repeat(5, 1fr);
+  }
+}
+
+.adalabers__grid--title {
+  grid-row: span 1;
   margin: 30px 0;
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1.88;
   color: $colorAdalabersTitle;
+  position: relative;
+  @media all and (min-width: 768px) {
+    margin: 45px 0;
+  }
 }
 
-h2 {
-  position: relative;
-}
 h2 span {
   position: absolute;
   top: -125px;
+  @media all and (min-width: 768px) {
+    top: -75px;
+  }
+}
+
+.adalabers__grid--item1,
+.adalabers__grid--item2,
+.adalabers__grid--item3,
+.adalabers__grid--item4,
+.adalabers__grid--item5 {
+  grid-row: span 1;
 }
 
 @media all and (min-width: 768px) {
