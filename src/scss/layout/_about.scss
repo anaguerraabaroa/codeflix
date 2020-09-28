@@ -6,13 +6,13 @@
     font-family: $fontText;
     font-size: 16px;
     line-height: 24px;
-    color: $colorText;
+    color: $color-brand-3;
     &--title {
       font-size: 24px;
       font-family: $fontTitle;
       font-weight: 500;
       line-height: 45px;
-      color: $colorAboutTitle;
+      color: $color-brand-2;
       text-transform: uppercase;
     }
   }
