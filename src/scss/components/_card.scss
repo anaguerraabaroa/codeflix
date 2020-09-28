@@ -57,11 +57,11 @@
   font-size: 1.25rem;
   line-height: 2.25;
   font-weight: normal;
-  color: $colorAdalabersName;
+  color: $color-brand-5;
 }
 
 .card-text {
-  color: $colorText;
+  color: $color-brand-3;
   line-height: 1.5;
   margin-bottom: 15px;
   margin-top: 0;
@@ -79,7 +79,7 @@
 }
 
 .card-link {
-  color: black;
+  color: $color-brand-5;
   text-decoration: none;
 }
 
@@ -87,13 +87,13 @@
 
 .fab,
 .fas {
-  color: $backgroundLogo;
+  color: $color-brand-1;
   font-size: 1rem; /* 16px */
 }
 
 .fab::after {
   content: "·";
-  color: $colorText;
+  color: $color-brand-3;
   padding: 5px;
 }
 
