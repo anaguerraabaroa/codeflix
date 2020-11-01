@@ -21,3 +21,5 @@ Hemos desarrollado **nuestra primera web colaborativa** con la información de t
 - Animaciones y transiciones para mejorar la experiencia de usuaria.
 
 4. **Formulario de contacto**
+
+- Uso del servicio formspree.io.
