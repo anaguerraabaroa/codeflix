@@ -1,6 +1,6 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-## Proyecto final del módulo 2
+## Proyecto final del módulo 1
 
 ### Web grupal
 
