@@ -20,9 +20,9 @@ Instructions to start this project:
 
 ### **Pre-requirements**
 
-This project is run with Adalab Starter Kit [here](https://github.com/Adalab/adalab-web-starter-kit).
+This project is run with Adalab Starter Kit [**here**](https://github.com/Adalab/adalab-web-starter-kit).
 
-In order to use this kit it is needed to previously install [`node.js`](https://nodejs.org/es/), [`git`](https://git-scm.com/) and [`gulp.js`](https://gulpjs.com/) to automate tasks and control project versions.
+In order to use this kit it is needed to previously install [**`node.js`**](https://nodejs.org/es/), [**`git`**](https://git-scm.com/) and [**`gulp.js`**](https://gulpjs.com/) to automate tasks and control project versions.
 
 ### **Installation**
 
