@@ -103,6 +103,9 @@ Codeflix
 │   │    ├── eva-ferreras_louise-banks.jpg
 │   │    ├── eva-ferreras.jpg
 │   │    ├── jess-day_phone.jpg
+│   │    ├── landing_desktop.jpg
+│   │    ├── landing_mobile.jpg
+│   │    ├── landing_tablet.jpg
 │   │    ├── leire-ordenana_dana-scully.jpg
 │   │    ├── leire-ordenana.jpg
 │   │    ├── louise-banks_phone.jpg
