@@ -1,4 +1,4 @@
-# Codeflix
+# **Codeflix**
 
 Module 1 team project of the Adalab Digital Frontend Development Bootcamp.
 
@@ -8,11 +8,11 @@ This is a responsive website developed with `HTML5` , `CSS3` and `SASS`.
 
 This website has been developed by Codeflix Team:
 
-- Alicia Colom: @alicia-colom
-- Eva Ferreras: @evaferrerasbr
-- Ana Guerra: @anaguerraabaroa
-- Leire Ordeñana: @leireomadina
-- Patricia Poveda: @PatriciaPoveda
+- **Alicia Colom:** @alicia-colom
+- **Eva Ferreras:** @evaferrerasbr
+- **Ana Guerra:** @anaguerraabaroa
+- **Leire Ordeñana:** @leireomadina
+- **Patricia Poveda:** @PatriciaPoveda
 
 ## **Quick start guide**
 
