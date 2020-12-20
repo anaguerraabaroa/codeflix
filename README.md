@@ -8,11 +8,11 @@ This is a responsive website developed with `HTML5` , `CSS3` and `SASS`.
 
 This website has been developed by Codeflix Team:
 
-- **Alicia Colom:** @alicia-colom
-- **Eva Ferreras:** @evaferrerasbr
-- **Ana Guerra:** @anaguerraabaroa
-- **Leire Ordeñana:** @leireomadina
-- **Patricia Poveda:** @PatriciaPoveda
+- **Alicia Colom:** [@alicia-colom](https://github.com/alicia-colom)
+- **Eva Ferreras:** [@evaferrerasbr](https://github.com/evaferrerasbr)
+- **Ana Guerra:** [@anaguerraabaroa](https://github.com/anaguerraabaroa)
+- **Leire Ordeñana:** [@leireomadina](https://github.com/leireomadina)
+- **Patricia Poveda:** [@PatriciaPoveda](https://github.com/PatriciaPoveda)
 
 ## **Quick start guide**
 
