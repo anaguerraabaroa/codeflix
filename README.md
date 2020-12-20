@@ -22,7 +22,7 @@ Instructions to start this project:
 
 ### **Pre-requirements**
 
-This project is run with Adalab Starter Kit [**here**](https://github.com/Adalab/adalab-web-starter-kit).
+This project runs with Adalab Starter Kit [**here**](https://github.com/Adalab/adalab-web-starter-kit).
 
 In order to use this kit it is needed to previously install [<img src="https://img.shields.io/badge/-node.js-339933?style=flat&logo=node.js&logoColor=white">](https://nodejs.org/es/), [<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white">](https://git-scm.com/) and [<img src="https://img.shields.io/badge/-Gulp.js-CF4647?style=flat&logo=gulp&logoColor=white">](https://gulpjs.com/) to automate tasks and control project versions.
 
