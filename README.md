@@ -1,3 +1,5 @@
+![Codeflix Banner](https://pro.sony/s3/2017/04/08151948/main-banner_1600x450.jpg)
+
 # **Codeflix**
 
 Module 1 team project of the Adalab Digital Frontend Development Bootcamp.
