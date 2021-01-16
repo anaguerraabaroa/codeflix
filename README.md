@@ -56,7 +56,7 @@ git push
 
 4. Project **[URL](https://anaguerraabaroa.github.io/Codeflix/)** is also available on GitHub Pages.
 
-## **Project development requirements**
+## **Project features**
 
 - Responsive web design for mobile, tablet and desktop devices
 - Fixed header with the team logo and a navigation menu
