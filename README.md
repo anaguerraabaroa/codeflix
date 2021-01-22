@@ -8,7 +8,7 @@ This is a responsive website developed with [<img src = "https://img.shields.io/
 
 ## **Authors**
 
-This website has been developed by Codeflix Team:
+This project has been developed by Codeflix Team:
 
 - **Alicia Colom:** [@alicia-colom](https://github.com/alicia-colom)
 - **Eva Ferreras:** [@evaferrerasbr](https://github.com/evaferrerasbr)
@@ -56,7 +56,7 @@ git push
 
 4. Project **[URL](https://anaguerraabaroa.github.io/Codeflix/)** is also available on GitHub Pages.
 
-## **Exercise features**
+## **Project features**
 
 - Responsive web design for mobile, tablet and desktop devices
 - Fixed header with the team logo and a navigation menu
