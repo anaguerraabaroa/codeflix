@@ -137,7 +137,7 @@ Codeflix
 └── robots.txt
 ```
 
-## **Project captures**
+## **Screenshots**
 
 ![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
 
