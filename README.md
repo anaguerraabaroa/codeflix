@@ -1,4 +1,6 @@
-![Codeflix Banner](https://pro.sony/s3/2017/04/08151948/main-banner_1600x450.jpg)
+![Mobile version](./src/images/landing_mobile.png) ![Tablet version](./src/images/landing_tablet.png) ![Desktop version](./src/images/landing_desktop.png)
+
+![Mobile version](./src/images/contact_mobile.png) ![Tablet version](./src/images/contact_tablet.png) ![Desktop version](./src/images/contact_desktop.png)
 
 # **Codeflix**
 
@@ -93,13 +95,16 @@ Codeflix
 │   │    ├── alicia-colom.jpg
 │   │    ├── ana-guerra_jess-day.jpg
 │   │    ├── ana-guerra.jpg
+│   │    ├── contact_desktop.png
+│   │    ├── contact_mobile.png
+│   │    ├── contact_tablet.png
 │   │    ├── dana-scully_phone.jpg
 │   │    ├── eva-ferreras_louise-banks.jpg
 │   │    ├── eva-ferreras.jpg
 │   │    ├── jess-day_phone.jpg
-│   │    ├── landing_desktop.jpg
-│   │    ├── landing_mobile.jpg
-│   │    ├── landing_tablet.jpg
+│   │    ├── landing_desktop.png
+│   │    ├── landing_mobile.png
+│   │    ├── landing_tablet.png
 │   │    ├── leire-ordenana_dana-scully.jpg
 │   │    ├── leire-ordenana.jpg
 │   │    ├── louise-banks_phone.jpg
@@ -136,10 +141,6 @@ Codeflix
 ├── README.md
 └── robots.txt
 ```
-
-## **Screenshots**
-
-![Mobile version](./src/images/landing_mobile.jpg) ![Tablet version](./src/images/landing_tablet.jpg) ![Desktop version](./src/images/landing_desktop.jpg)
 
 ## **License**
 
