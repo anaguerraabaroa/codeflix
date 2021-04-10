@@ -42,7 +42,7 @@ npm install
 npm start
 ```
 
-**[Project URL](https://anaguerraabaroa.github.io/codeflix/)** is also available on GitHub Pages.
+- **[Project URL](https://anaguerraabaroa.github.io/codeflix/)** is also available on GitHub Pages.
 
 ## **Project features**
 
