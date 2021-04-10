@@ -53,7 +53,7 @@ npm start
 - Hero with the team image and claim
 - Strengths and weaknesses section with the team description
 - Team members section with an image, description and social media links
-- Contact form integrated with free data service [**`formspree`**](https://formspree.io/)
+- Contact form integrated with free data service [<img src = "https://img.shields.io/badge/-Formspree-e5122e?style=for-the-badge&logo=formspree">](https://formspree.io/)
 - Footer with logo and navigation menu
 
 ## **Folder Structure**
