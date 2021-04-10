@@ -44,7 +44,7 @@ npm start
 
 - **[Project URL](https://anaguerraabaroa.github.io/codeflix/)** is also available on GitHub Pages.
 
-## **Project features**
+## **Features**
 
 - Responsive web design for mobile, tablet and desktop devices
 - Fixed header with the team logo and a navigation menu
