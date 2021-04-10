@@ -6,9 +6,9 @@
 
 Module 1 team project of the Adalab Digital Frontend Development Bootcamp.
 
-This is a responsive website developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src="https://img.shields.io/badge/-SASS-cc6699?style=flat&logo=sass&logoColor=ffffff">](https://sass-lang.com/)
+This is a responsive website developed with [<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">](https://html.spec.whatwg.org/) [<img src = "https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">](https://www.w3.org/Style/CSS/) and [<img src="https://img.shields.io/badge/-SASS-cc6699?style=for-the-badge&logo=sass&logoColor=ffffff">](https://sass-lang.com/)
 
-## **Authors**
+## **Codeflix Team**
 
 This project has been developed by Codeflix Team:
 
@@ -22,41 +22,27 @@ This project has been developed by Codeflix Team:
 
 Instructions to start this project:
 
-### **Pre-requirements**
+## Installation
 
-This project runs with Adalab Starter Kit [**here**](https://github.com/Adalab/adalab-web-starter-kit).
-
-In order to use this kit it is needed to previously install [<img src="https://img.shields.io/badge/-node.js-339933?style=flat&logo=node.js&logoColor=white">](https://nodejs.org/es/), [<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white">](https://git-scm.com/) and [<img src="https://img.shields.io/badge/-Gulp.js-CF4647?style=flat&logo=gulp&logoColor=white">](https://gulpjs.com/) to automate tasks and control project versions.
-
-### **Installation**
-
-1. Clone repository
-2. Open a terminal
-3. Run `npm install` on the terminal to install local dependencies
-
-### **Run project**
-
-Run `npm start` on the terminal:
-
-1. Open the project on the browser using a local server.
-2. Refresh browser everytime files contained in `/src` folder are updated.
-3. Compiled files contained in `/src` folder and copy them in `/public` folder in order to be prepared for production environment.
-
-### **Updating**
-
-1. Run these commands to update changes on the project:
+- Clone repository:
 
 ```
-git add -A
-git commit -m "Message commit"
-git push
+git clone [repository]
 ```
 
-2. Run `npm run docs` to create `/docs` folder and the production environment version.
+- Install NPM packages and dependencies:
 
-3. Run again commands on step 1 to update changes on the project.
+```
+npm install
+```
 
-4. Project **[URL](https://anaguerraabaroa.github.io/codeflix/)** is also available on GitHub Pages.
+- Run project on local server:
+
+```
+npm start
+```
+
+**[Project URL](https://anaguerraabaroa.github.io/codeflix/)** is also available on GitHub Pages.
 
 ## **Project features**
 
