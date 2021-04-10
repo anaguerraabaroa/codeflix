@@ -130,4 +130,4 @@ Codeflix
 
 ## **License**
 
-This project is licensed under [**MIT License**](https://spdx.org/licenses/MIT.html).
+This project is licensed under ![GitHub](https://img.shields.io/github/license/anaguerraabaroa/random-number?label=License&logo=MIT&style=for-the-badge)
